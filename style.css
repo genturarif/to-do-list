@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #ffa900;
+  background-color: #11324d;
   color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
@@ -14,6 +14,7 @@ body {
 header {
   font-size: 2rem;
 }
+
 header,
 form {
   min-height: 20vh;
@@ -21,6 +22,8 @@ form {
   justify-content: center;
   align-items: center;
 }
+
+/* Form Input and Form Button */
 form input,
 form button {
   padding: 0.5rem;
@@ -29,13 +32,13 @@ form button {
   background: white;
 }
 form button {
-  color: #ff6f47;
+  color: #6b7aa1;
   background: #f7fffe;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 form button:hover {
-  background: #ff6f47;
+  background: #6b7aa1;
   color: white;
 }
 
@@ -67,7 +70,7 @@ form button:hover {
 
 .trash-btn,
 .complete-btn {
-  background: #ff6f47;
+  background: #6b7aa1;
   color: white;
   border: none;
   padding: 1rem;
@@ -115,7 +118,7 @@ select {
   overflow: hidden;
 }
 select {
-  color: #ff6f47;
+  color: #6b7aa1;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   width: 12rem;
@@ -127,7 +130,7 @@ select {
   top: 0;
   right: 0;
   padding: 1rem;
-  background: #ff6f47;
+  background: #6b7aa1;
   cursor: pointer;
   pointer-events: none;
 }
