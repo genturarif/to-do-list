@@ -83,17 +83,16 @@ form button:hover {
 .todo-item {
   padding: 0rem 0.5rem;
 }
-
 .fa-trash,
 .fa-check {
   pointer-events: none;
 }
 
+/* To Do List Animation */
 .fall {
   transform: translateY(10rem) rotateZ(20deg);
   opacity: 0;
 }
-
 .completed {
   text-decoration: line-through;
   opacity: 0.5;
