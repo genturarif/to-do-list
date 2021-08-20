@@ -134,6 +134,7 @@ select {
   pointer-events: none;
 }
 
+/* Mobile Device Version */
 @media screen and (max-width: 576px) {
   header {
     font-size: 1.7rem;
