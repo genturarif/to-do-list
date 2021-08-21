@@ -34,7 +34,7 @@ function addTodo(event) {
   newTodo.classList.add("todo-item");
 
   todoTask = todoInput.value; // Set value let todoTask to todoInputValue
-  const taskUndefined = new TodoObject(todoTask, false); // Set parameter function TodoObject
+  const taskUndefined = new TodoObject(todoTask, false); // Set parameter function TodoObject to const taskUndefined
 
   todoObjectArray.push(taskUndefined); // Push const taskUndefined to Array let todoObjectArray
 
@@ -42,7 +42,7 @@ function addTodo(event) {
   todoDiv.appendChild(newTodo);
 
   // Add To Do To Local Storage
-  saveLocalTodos(taskUndefined);
+  saveLocalTodos(taskUndefined); // Set Parameter function saveLocalTodos to const taskUndefined
 
   // Create Check Mark Button
   const completedButton = document.createElement("button");
@@ -63,7 +63,7 @@ function addTodo(event) {
   todoInput.value = "";
 }
 
-// Delete, Check, and Update Local Storage
+// Delete, Check, and Update To Local Storage
 function deleteCheck(e) {
   const item = e.target;
 
@@ -165,7 +165,7 @@ function getTodos() {
       const newTodo = document.createElement("li");
       newTodo.innerText = todoObject.task;
 
-      // Display completed task if content loaded
+      // Completed task still in display if user refresh page
       if (todoObject.isCompleted === true) {
         todoDiv.classList.add("completed");
       }
