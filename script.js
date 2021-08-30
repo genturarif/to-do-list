@@ -17,7 +17,6 @@ function TodoObject(task, isCompleted) {
 }
 
 // Global Variabel
-let ifCompleted;
 let todoTask;
 let todoObjectArray = [];
 
